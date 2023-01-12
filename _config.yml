@@ -27,7 +27,7 @@ baseurl: "/digital-garden"
 
 # Website Header, Description, Footer year and text. 
 # If you are deleting this, make sure you remove it from HTML files too 
-heading: PBL Digital Garden # Change this 
+heading: Digital Garden # Change this 
 content: Some ideas might grow here
 copyright:  
   year: © 2023
