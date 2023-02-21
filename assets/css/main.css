@@ -1121,6 +1121,8 @@ a.box-feed:active {
   .meta {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    font-size: var(--text-xs)
   }
 
     .status {

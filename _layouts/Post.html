@@ -127,7 +127,7 @@
                     {% endunless %}
                     <div class="meta">
                         <div class="status">
-                            <p>Writing stage: {{page.status}}</p>
+                            <p>{{page.status | capitalize }}</p>
                         </div>
                         <div class="review">
                             {% for review in page.reviews %}

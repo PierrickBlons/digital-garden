@@ -7,6 +7,6 @@ permalink: /tdd
 status: draft
 reviews:
   - { date: 02/20/2023, comment: 'seeded' }
-  - { date: 02/21/2032, comment: 'tended' }
+  - { date: 02/21/2023, comment: 'tended' }
 ---
 Mockist/London school pros and cons - mostly cons
