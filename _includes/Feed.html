@@ -49,7 +49,7 @@
         {%- if note_items.feed == "show" -%}
                 <div class="notelist-feed">
                     <a href="{{ site.baseurl }}{{note_items.url}}">
-                        <h6>{%- if note_items.status != empty -%}&#91;{{ note_items.status }}&#93;&nbsp;{%- endif -%}{{ note_items.title }}</h6>
+                        <h6>{%- if note_items.status != empty or note_items.status != nil or note_items.status != null -%}&#91;{{ note_items.status }}&#93;&nbsp;{%- endif -%}{{ note_items.title }}</h6>
                         <p class="excerpt">
                             {{ note_items.content | strip_html | strip | remove: "[[" | remove: "]]" | remove: "-" | escape | truncate: 200 }}
                         </p>
