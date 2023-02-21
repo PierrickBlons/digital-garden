@@ -122,6 +122,9 @@
                     </style>
                     {%- endif -%}
                     <h1>{{page.title}}</h1>
+                    {%- if page.status == "draft" -%}
+                    <h4>{{page.status}}</h4>
+                    {%- endif -%}
                     {%- include Content.html -%}
                     {%- include Backlinks.html -%}
                     </div>
