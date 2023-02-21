@@ -49,7 +49,7 @@
         {%- if note_items.feed == "show" -%}
                 <div class="notelist-feed">
                     <a href="{{ site.baseurl }}{{note_items.url}}">
-                        <h6>{{ note_items.title }}{%- if note_items.status != "" -%} - {{ note_items.status}}{%- endif -%}</h6>
+                        <h6>{%- if note_items.status != "" -%}&#91;{{ note_items.status}}&#93;{%- endif -%}&nbsp;{{ note_items.title }}</h6>
                         <p class="excerpt">
                             {{ note_items.content | strip_html | strip | remove: "[[" | remove: "]]" | remove: "-" | escape | truncate: 200 }}
                         </p>
@@ -71,7 +71,7 @@
             <div class="list-feed">
                     <a href="{{ site.baseurl }}{{note_items.url}}" style="text-decoration: none;display: flex;justify-content: space-between;flex-direction: row;width: 100%;">
                         <div class="writinglist-title">
-                            {{note_items.title }}{%- if note_items.status != "" -%} - {{ note_items.status}}{%- endif -%}
+                            {%- if note_items.status != "" -%}&#91;{{ note_items.status}}&#93;{%- endif -%}&nbsp;{{note_items.title }}
                         </div>
                     </a>
             </div>
