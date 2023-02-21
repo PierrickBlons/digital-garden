@@ -76,7 +76,10 @@
             <div class="list-feed">
                     <a href="{{ site.baseurl }}{{note_items.url}}" style="text-decoration: none;display: flex;justify-content: space-between;flex-direction: row;width: 100%;">
                         <div class="writinglist-title">
-                            {%- if note_items.status != "published" -%}&#91;{{ note_items.status}}&#93;&nbsp;{%- endif -%}{{note_items.title }}
+                            {% if note_items.status != "published" %}
+                            &#91;{{ note_items.status | lowercase }}&#93;&nbsp;
+                            {% endif %}
+                            {{ note_items.title }}
                         </div>
                     </a>
             </div>
