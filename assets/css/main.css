@@ -1114,8 +1114,26 @@ a.box-feed:active {
       max-width: 1344px; } }
 
 .content {
-  border: top 1px;
+  border-top: solid 1px var(--color-border);
+  padding-top: 1em;
 }
+
+  .meta {
+    display: flex;
+    flex-direction: row;
+  }
+
+    .status {
+      display: flex;
+      flex-direction: row;
+      max-width: 70%;
+    }
+
+    .review {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+    }
 
 .content li + li {
   margin-top: 0em; }

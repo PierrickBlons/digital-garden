@@ -122,15 +122,20 @@
                     </style>
                     {%- endif -%}
                     <h1>{{page.title}}</h1>
-                    {% unless page.subtitle %}
+                    {% unless page.subtitle == empty %}
                     <h3>{{ page.subtitle }}</h3>
                     {% endunless %}
-                    {%- unless page.status == "published" or page.status == empty -%}
-                    <p>Writing stage: {{page.status}}</p>
-                    {%- endunless -%}
-                    {% for review in page.reviews %}
-                        <span>{{ review.comment }} on {{ review.date }}</span>
-                    {%- endfor -%}
+                    <div class="meta">
+                        <div class="status">
+                            <p>Writing stage: {{page.status}}</p>
+                        </div>
+                        <div class="review">
+                            {% for review in page.reviews %}
+                                <span>{{ review.comment }} on {{ review.date }}</span>
+                            {%- endfor -%}
+                        </div>
+                    </div>
+
                     {%- include Content.html -%}
                     {%- include Backlinks.html -%}
                     </div>
