@@ -1,10 +1,10 @@
 ---
 title : Welcome to the garden
 feed: show
-date : 15-04-2021
+date : 21-02-2023
 ---
 
-Welcome to digital garden using Obsidian and Jekyll garden theme. This file is located in `_notes/Public`. Check the <a href="{{'/notes' | relative_url}}"> demo </a>, <a href="{{'/post/features' | relative_url}}"> features </a> to know more.
+Welcome to this experimentation.  
+I'm still not sure about what you'll find here but it might be mostly related to the learning of building software and others topics I'm curious about. 
 
-Check [[Hidden Note]] to know how to create notes which won't appear on the feed!
-
+Don't worry if you found french or english content it might happen ;)
