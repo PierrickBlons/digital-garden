@@ -37,9 +37,9 @@ Let's illustrate this by an example:
 
 **Objective**
 Improve user satisfaction
-KR1: Reduce calls to level 1 support to less than 100 per month
-KR2: Reduce number of incident per month in production to 25 per month
-KR3: Reduce average response time of user backend to 150ms
+- KR1: Reduce calls to level 1 support to less than 100 per month
+- KR2: Reduce number of incident per month in production to 25 per month
+- KR3: Reduce average response time of user backend to 150ms
 
 With this kind of KR if you plan a new feature that might impact the response time or if you are not confident of delivering bug free feature then it's definitely not a good candidate.
 But if you decide as a team to focus your effort on bug fixing and performance improvement there are more chances that you'll reach the objective.
