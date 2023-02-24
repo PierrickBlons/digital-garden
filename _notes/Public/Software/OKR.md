@@ -1,6 +1,6 @@
 ---
 title : OKR
-subtitle: OKR for products team
+subtitle: OKR for product teams
 feed: show
 date : 24/02/2023
 permalink: /okr
