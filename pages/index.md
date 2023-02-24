@@ -4,5 +4,5 @@
 
 layout: Post
 permalink: /
-title: Jekyll Garden
+title: A digital garden by Pierrick Blons
 ---
