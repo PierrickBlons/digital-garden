@@ -1,7 +1,7 @@
 ---
 title : TDD
 subtitle: Some thoughts around unit testing and TDD
-feed: show
+feed: hide
 date : 21/02/2023
 permalink: /tdd
 status: draft
