@@ -9,7 +9,10 @@ reviews:
   - { date: 02/24/2023, comment: 'seeded' }
   - { date: 02/24/2023, comment: 'tended' }
 ---
-The idea here is not to defend or not the OKR technique, it has his flows. But if you want to experiment it then there are few guidelines to follow to not reproduce known issues with OKR. And writing them properly will save you few quarters of experimentation and learning.
+
+The idea here is not to debate about the OKR technique, it has his flows and limitations. 
+
+But if you want to experiment it then there are few guidelines to follow. So you might not end up reproducing known mistakes with OKR. Starting by writing them properly will save you few quarters of experimentation and learning.
 
 Let's begin with a definition
 
