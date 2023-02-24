@@ -7,8 +7,11 @@ permalink: /okr
 status: draft
 reviews:
   - { date: 02/24/2023, comment: 'seeded' }
+  - { date: 02/24/2023, comment: 'tended' }
 ---
-Let's start with a definition
+The idea is here is not to defend or not the OKR technique, it has his flows. But if you want to experiment it then there are few guidelines to follow to not reproduce known issues with OKR. And writing them properly will save you few quarters of experimentation and learning.
+
+Let's begin with a definition
 
 > **Objectives and key results** (**OKR**, alternatively **OKRs**) is a goal-setting framework used by individuals, teams, and organizations to define measurable goals and track their outcomes.  
 
@@ -23,23 +26,43 @@ There two important terms here:
 
 Let's have a look into another definition of OKR from Marty Cagan in his book [Inspired, How to create tech products customers love](https://www.goodreads.com/book/show/35249663-inspired)
 
-*The OKR technique is a **tool** for management, focus, and alignment.*
+>*The OKR technique is a **tool** for management, focus, and alignment.* - Marty Cagan, Inspired
 
 It's a tool, that you use to help prioritize the right thing to build in your product. It should not dictate what you will plan but measuring the outcome of what you are planning.
 
-Two other important points to keep in mind when working on OKR again from Marty Cagan are:
-- *Objectives should be quantitative; key results need to be quantitative/measurable*
-- *Key results should be a measure of business results, not output or tasks*
+With that in mind let's build a first objective. 
+We realized that we had a lot of bugs customers are complaining about. Sometimes critical sometimes less but it always triggers customer non satisfaction.
 
-It's pretty clear now, KR should demonstrate and measure the impact of what you deliver at a business level.
+So what's about this objective?
 
-Let's illustrate this by an example:
+**Objective (v1)**
+*Reduce the number of bugs in production by X%*
 
-**Objective**
-Improve user satisfaction
-- KR1: Reduce calls to level 1 support to less than 100 per month
-- KR2: Reduce number of incident per month in production to 25 per month
-- KR3: Reduce average response time of user backend to 150ms
+What is the problem here? 
+
+One critical point regarding OKR objectives in Inspired is the following
+>*Objectives should be quantitative; key results need to be quantitative/measurable* - Marty Cagan, Inspired
+
+Here we don't have a quantitative but a qualitative objective. So this should belongs to one key result (KR).
+
+**Objective (v2)**
+*Increase customer satisfaction*
+- KR1: *Fix 5 critical bugs*
+
+Now we have a qualitative objective to focus on and a key result to follow. Is it good enough?
+
+Let's have a second look into another important characteristic of KR
+>*Key results should be a measure of business results, not output or tasks* - Marty Cagan, Inspired
+
+So KR should demonstrate and measure the impact of what you deliver at a business level. By measurable it means something you can track over time with the team.
+
+So let's rewrite it:
+
+**Objective (v3)**
+*Improve user satisfaction*
+- KR1: *Reduce calls to level 1 support to less than 100 per month*
+- KR2: *Reduce number of open bugs in production to 25 maximum per month*
+- KR3: *Reduce average response time of user backend to 150ms*
 
 With this kind of KR if you plan a new feature that might impact the response time or if you are not confident of delivering bug free feature then it's definitely not a good candidate.
 But if you decide as a team to focus your effort on bug fixing and performance improvement there are more chances that you'll reach the objective.
